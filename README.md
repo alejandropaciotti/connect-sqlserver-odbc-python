@@ -29,7 +29,8 @@ odbcinst -j
 
 Y luego:
 
-import pyodbc  
+
 ```python
+import pyodbc  
 cnxn = pyodbc.connect('DRIVER={FreeTDS};SERVER=servername.ddns.net;PORT=1433;DATABASE=DatabaseName;UID=userName;PWD=yourpassword')
 ```
